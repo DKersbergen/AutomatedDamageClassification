@@ -1,0 +1,46 @@
+\documentclass{article}
+
+\usepackage[printonlyused]{acronym}
+
+\title{Example of the Acronym package in use}
+\author{Hugh C. Pumphrey}
+
+\begin{document}
+\maketitle
+\section{Description}
+The acronym package is useful for handling such things as \ac{MLS} and
+\ac{HiRDLS}. The first time you mention an acronym, it gets
+expanded. Subsequent uses do not get expanded, so if I mention
+\ac{MLS} again, then only the acronym appears. The package does not
+detect your acronyms magically: it is
+up to the user to write \ac{MLS} as \verb+\ac{MLS}+ every time it
+appears. The package warns you if you use an acronym that is not
+defined. For example, if I do \verb+\ac{OMI}+  I  get \ac{OMI}, and a
+warning 
+\begin{verbatim}
+Package acronym Warning: Acronym `OMI' is not defined on input line 17.
+\end{verbatim}
+is printed to the terminal.
+
+The acronyms themselves are defined within the \texttt{acronym}
+environment. If you load the package with \verb+\usepackage{acronym}+
+then all of the acronyms you define will appear in the table of
+acronyms, whether or not you use them. If, on the other hand, you load
+the package with \verb+\usepackage[printonlyused]{acronym}+ then the
+printed table only consists of acronyms that you actually used
+somewhere. 
+
+\acresetall
+Finally, you can use  \verb+\acresetall+ if you want the definitions
+of acronyms to appear again. There is an  \verb+\acresetall+ just
+above this sentence, so if I use \verb+\ac{MLS}+ here I get this: \ac{MLS}.
+
+\section*{List of Acronyms}
+\begin{acronym}
+\acro{MLS}{Microwave Limb Sounder}
+\acro{HiRDLS}{High-Resolution Dynamics Limb Sounder}
+\acro{TES}{Tropospheric Emission Sounder}
+\end{acronym}
+
+
+\end{document}
