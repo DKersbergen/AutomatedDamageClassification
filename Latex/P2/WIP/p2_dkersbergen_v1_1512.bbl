@@ -1,15 +1,273 @@
 \begin{thebibliography}{}
 
+\bibitem[Ajmar et~al., 2011]{Ajmar2011}
+Ajmar, A., Boccccardo, P., and {Giulio Tonolo}, F. (2011).
+\newblock {Earthquake damage assessment based on remote sensing data. The Haiti
+  case study}.
+\newblock {\em Italian Journal of Remote Sensing}, pages 123--128.
+
+\bibitem[{Al Achkar} et~al., 2008]{AlAchkar2008}
+{Al Achkar}, Z., Baker, I.~L., and Raymond, N.~A. (2008).
+\newblock {Assessing Wind Disaster Damage to Structures}.
+\newblock {\em Harvard Humanitarian Initiative}, (viii).
+
+\bibitem[Antonietta et~al., 2015]{Antonietta2015}
+Antonietta, F., Boccardo, P., Tonolo, F.~G., Vassileva, M., and Dist, T.
+  (2015).
+\newblock {Damage assessment exploiting remote sensing imagery : review of the
+  typhoon haiyan case study}.
+\newblock pages 3556--3559.
+
+\bibitem[Bessis et~al., 2003]{Bessis2003}
+Bessis, J.-L., B{\'{e}}quignon, J., and Mahmood, A. (2003).
+\newblock {The International Charter Space and Major Disasters initiative}.
+\newblock {\em Acta Astronautica}, 54:183--190.
+
+\bibitem[Bijnsdorp, 2017]{Bijnsdorp2017}
+Bijnsdorp, L. (2017).
+\newblock {Hurricane Maria passes South of St. Maarten}.
+
+\bibitem[Brunner et~al., 2010]{Brunner2010}
+Brunner, D., Member, S. S. S.~S., Lemoine, G., and Bruzzone, L. (2010).
+\newblock {Earthquake Damage Assessment of Buildings Using VHR Optical and SAR
+  Imagery}.
+\newblock 48(5):2403--2420.
+
+\bibitem[{Centre for Research on the Epidemiology of Disaster}, 2015]{CRED2015}
+{Centre for Research on the Epidemiology of Disaster} (2015).
+\newblock {Poverty {\&} Death: Disaster Mortality 1996-2015}.
+\newblock pages 1--20.
+
+\bibitem[Christopher and Doeglas, 2015]{Christopher2015}
+Christopher, D. and Doeglas, A. (2015).
+\newblock {\em {Time-Sensitive Remote Sensing}}.
+
+\bibitem[{Copernicus EMS}, 2017]{Cop2017}
+{Copernicus EMS} (2017).
+\newblock {Philipsburg - SINT MAARTEN}.
+
+\bibitem[Daniell et~al., 2017]{Daniell2017}
+Daniell, J., M{\"{u}}hr, B., Pomonis, A., Sch{\"{a}}fer, A., and Mohr, S.
+  (2017).
+\newblock {Center for Disaster Management and Risk Reduction Technology CEDIM
+  Forensic Disaster Analysis Group (FDA) Focus on Caribbean up until 8 th
+  September 2017}.
+\newblock Technical report.
+
+\bibitem[Dell'Acqua and Gamba, 2012]{DellAcqua2012}
+Dell'Acqua, F. and Gamba, P. (2012).
+\newblock {Remote sensing and earthquake damage assessment: Experiences,
+  limits, and perspectives}.
+\newblock {\em Proceedings of the IEEE}, 100(10):2876--2890.
+
 \bibitem[Dominici et~al., 2017]{Dominici2017}
 Dominici, D., Alicandro, M., and Massimi, V. (2017).
 \newblock {UAV photogrammetry in the post-earthquake scenario: case studies in
   L'Aquila}.
 \newblock {\em Geomatics, Natural Hazards and Risk}, 8(1):87--103.
 
-\bibitem[Montgomery et~al., 2016]{Montgomery2016}
-Montgomery, K., Fernandez, J., Ruggiero, G., and Gordon, S. (2016).
-\newblock {Drone Photogrammetry for Flood Preparedness}.
-\newblock {\em International UNESCO Conference on Technologies for Development:
-  From Innovation to Social Impact}, pages 2--6.
+\bibitem[Dong and Shan, 2013]{Dong2013}
+Dong, L. and Shan, J. (2013).
+\newblock {A comprehensive review of earthquake-induced building damage
+  detection with remote sensing techniques}.
+\newblock {\em ISPRS Journal of Photogrammetry and Remote Sensing}, 84:85--99.
+
+\bibitem[Gray, 2017]{Gray2017}
+Gray, M. (2017).
+\newblock {Demolished by Irma, Barbuda spared from Hurricane Jose}.
+
+\bibitem[Gr\"unthal, 1998]{Grunthal1998}
+Gr\"unthal, G. (1998).
+\newblock Cahiers du centre européen de géodynamique et de séismologie
+  luxembourg.
+\newblock {\em European Macroseismic Scale 1998}, 15:1--99.
+
+\bibitem[IFRC, 2017]{IFRC2017}
+IFRC (2017).
+\newblock {What is a disaster?}
+
+\bibitem[JAXA, 2017]{JAXA2017}
+JAXA (2017).
+\newblock {ALOS Global Digital Surface Model ALOS World 3D - 30m (AW3D30)}.
+
+\bibitem[Johnson, 2017]{Johnson2017}
+Johnson, E.~M. (2017).
+\newblock {Red Cross launches first U.S. drone program for disasters}.
+
+\bibitem[Kakooei and Baleghi, 2017]{Kakooei2017}
+Kakooei, M. and Baleghi, Y. (2017).
+\newblock {Fusion of satellite, aircraft, and UAV data for automatic disaster
+  damage assessment}.
+\newblock {\em International Journal of Remote Sensing}, 38(8-10):2511--2534.
+
+\bibitem[Kerle, 2010]{Kerle2010}
+Kerle, N. (2010).
+\newblock {Satellite-based damage mapping following the 2006 Indonesia
+  earthquake-How accurate was it?}
+\newblock {\em International Journal of Applied Earth Observation and
+  Geoinformation}, 12(6):466--476.
+
+\bibitem[Kerle, 2015]{Kerle2015}
+Kerle, N. (2015).
+\newblock {Disasters: risk assessment, management, and post - disaster studies
+  using remote sensing}.
+\newblock {\em Remote sensing of water resources, disasters, and urban
+  studies}, (October):455--482.
+
+\bibitem[Kerle et~al., 2008]{Kerle2008}
+Kerle, N., Heuel, S., and Pfeifer, N. (2008).
+\newblock {Real-time data collection and information generation using airborne
+  sensors}.
+\newblock In Zlatanova, S. and Li, J., editors, {\em Geospatial Information
+  Technology for Emergency Response}, chapter~2, pages 43--74. Taylor - Francis
+  Group, London, 1 edition.
+
+\bibitem[Kousky, 2014]{Kousky2014}
+Kousky, C. (2014).
+\newblock {Informing climate adaptation: A review of the economic costs of
+  natural disasters}.
+\newblock {\em Energy Economics}, 46:576--592.
+
+\bibitem[Li et~al., 2017]{Li2017}
+Li, S., Tang, H., Huang, X., Mao, T., and Niu, X. (2017).
+\newblock {Automated Detection of Buildings from Heterogeneous VHR Satellite
+  Images for Rapid Response to Natural Disasters}.
+\newblock {\em Remote Sensing}, 9(11):1177.
+
+\bibitem[Lieshout, 2017]{Lieshout2017}
+Lieshout, I.~v. (2017).
+\newblock {Big data en drones helpen de hulpverlening}.
+
+\bibitem[Martha et~al., 2015]{Martha2015}
+Martha, T.~R., {Babu Govindharaj}, K., and {Vinod Kumar}, K. (2015).
+\newblock {Damage and geological assessment of the 18 September 2011 Mw 6.9
+  earthquake in Sikkim, India using very high resolution satellite data}.
+\newblock {\em Geoscience Frontiers}, 6(6):793--805.
+
+\bibitem[Menderes et~al., 2015]{Menderes2015}
+Menderes, A., Erener, A., and Sarp, G. (2015).
+\newblock {Automatic Detection of Damaged Buildings after Earthquake Hazard by
+  Using Remote Sensing and Information Technologies}.
+\newblock {\em Procedia Earth and Planetary Science}, 15:257--262.
+
+\bibitem[{MGP Radar Group}, 2012]{Mgp}
+{MGP Radar Group} (2012).
+\newblock {Doris}.
+
+\bibitem[{Munich RE}, 2018]{RE2018}
+{Munich RE} (2018).
+\newblock {Natural catastrophe review: Series of hurricanes makes 2017 year of
+  highest insured losses ever}.
+
+\bibitem[Nex and Remondino, 2014]{Nex2014}
+Nex, F. and Remondino, F. (2014).
+\newblock {UAV for 3D mapping applications: A review}.
+\newblock {\em Applied Geomatics}, 6(1):1--15.
+
+\bibitem[Ozisik, 2004]{Ozisik2004}
+Ozisik, D. (2004).
+\newblock {Post-earthquake Damage Assessment Using Satellite and Aerial Video
+  Imagery}.
+\newblock {\em Geo-Information Science}.
+
+\bibitem[Phipps, 2017]{Phipps2017}
+Phipps, C. (2017).
+\newblock {Irma's destruction: island by island | World news | The Guardian}.
+
+\bibitem[Piero and FabioGiulio, 2012]{Piero2012}
+Piero, B. and FabioGiulio, T. (2012).
+\newblock {Remote-sensing techniques for natural disaster impact assessment}.
+\newblock {\em Advances in Mapping from Remote Sensor Imagery}, pages 387--414.
+
+\bibitem[{Rode Kruis}, 2017]{Rodekruis2017}
+{Rode Kruis} (2017).
+\newblock {Eerste publieksterugkoppeling Nationale Actie Nederland helpt
+  Sint-Maarten}.
+\newblock Technical report.
+
+\bibitem[Samadzadegan and Rastiveisi, 2005]{Samadzadegan2005}
+Samadzadegan, F. and Rastiveisi, H. (2005).
+\newblock {Automatic Detection and Classification of Damaged Buildings , Using
+  High Resolution Satellite Imagery and Vector Data}.
+\newblock pages 415--420.
+
+\bibitem[Schweier and Markus, 2006]{Schweier2006}
+Schweier, C. and Markus, M. (2006).
+\newblock {Classification of collapsed buildings for fast damage and loss
+  assessment}.
+\newblock {\em Bulletin of Earthquake Engineering}, 4(2):177--192.
+
+\bibitem[Sharma et~al., 2017]{Sharma2017}
+Sharma, R.~C., Tateishi, R., Hara, K., Nguyen, H.~T., Gharechelou, S., and
+  Nguyen, L.~V. (2017).
+\newblock {Earthquake damage visualization (EDV) technique for the rapid
+  detection of earthquake-induced damages using SAR data}.
+\newblock {\em Sensors (Switzerland)}, 17(2).
+
+\bibitem[{The Federal Emergency Management Agency}, 2016]{FEMA2016}
+{The Federal Emergency Management Agency} (2016).
+\newblock {Damage assessment operations manual - A guide to assessing damage
+  and impact}.
+
+\bibitem[UNDAC, 2017]{UNDAC2017}
+UNDAC (2017).
+\newblock {UNDAC Talks Episode 2 - The Power of Remote Sensing}.
+
+\bibitem[UNOSAT, 2017]{UNOSAT2017}
+UNOSAT (2017).
+\newblock {Irma-17: comprehensive satellite detected building damage assessment
+  overview as of 21 September 2017}.
+\newblock Technical report, UNITAR, Geneva.
+
+\bibitem[Vetrivel et~al., 2016a]{Vetrivel2016a}
+Vetrivel, A., Duarte, D., Nex, F., Gerke, M., Kerle, N., and Vosselman, G.
+  (2016a).
+\newblock {Potential of Multi-Temporal Oblique Airborne Imagery for Structural
+  Damage Assessment}.
+\newblock {\em ISPRS Annals of Photogrammetry, Remote Sensing and Spatial
+  Information Sciences}, III-3(September):355--362.
+
+\bibitem[Vetrivel et~al., 2016b]{Vetrivel2016b}
+Vetrivel, A., Gerke, M., Kerle, N., Nex, F., and Vosselman, G. (2016b).
+\newblock {Disaster damage detection through synergistic use of deep learning
+  and 3D point cloud features derived from very high resolution oblique aerial
+  images, and multiple-kernel-learning}.
+\newblock {\em ISPRS Journal of Photogrammetry and Remote Sensing}, (March).
+
+\bibitem[Voigt et~al., 2016]{Voigt2016}
+Voigt, S., Giulio-Tonolo, F., Lyons, J., Ku{\v{c}}era, J., Jones, B.,
+  Schneiderhan, T., Platzeck, G., Kaku, K., {Kumar Hazarika}, M., Czaran, L.,
+  Li, S., Pedersen, W., {Kadiri James}, G., and Proy, C. (2016).
+\newblock {Global trends in satellite-based emergency mapping}.
+\newblock {\em Science}, 353(6296):247--252.
+
+\bibitem[Wang and Jin, 2012]{Wang2012}
+Wang, T.-L. and Jin, Y.-Q. (2012).
+\newblock {Postearthquake Building Damage Assessment Using Multi-Mutual
+  Information From Pre-Event Optical Image and Postevent SAR Image}.
+\newblock {\em IEEE Geoscience and Remote Sensing Letters}, 9(3):452--456.
+
+\bibitem[Wilts, 2017]{Wilts2017}
+Wilts, A. (2017).
+\newblock {Irma: Category 5 hurricane flattens 'most solid buildings' on Saint
+  Martin island | The Independent}.
+
+\bibitem[Yun et~al., 2015]{Yun2015}
+Yun, S.-H., Hudnut, K., Owen, S., Webb, F., Simons, M., Sacco, P., Gurrola, E.,
+  Manipon, G., Liang, C., Fielding, E., Milillo, P., Hua, H., and Coletta, A.
+  (2015).
+\newblock {Rapid Damage Mapping for the 2015
+  {\textless}i{\textgreater}M{\textless}/i{\textgreater}
+  {\textless}sub{\textgreater}w{\textless}/sub{\textgreater}  7.8 Gorkha
+  Earthquake Using Synthetic Aperture Radar Data from COSMO–SkyMed and ALOS-2
+  Satellites}.
+\newblock {\em Seismological Research Letters}, 86(6):1549--1556.
+
+\bibitem[Zlatanova and Li, 2008]{Zlatanova2008}
+Zlatanova, S. and Li, J. (2008).
+\newblock {Introduction}.
+\newblock In Zlatanova, S. and Li, J., editors, {\em Geospatial Information
+  Technology for Emergency Response}, pages Xi --Xii. Taylor - Francis Group,
+  London, 1 edition.
 
 \end{thebibliography}

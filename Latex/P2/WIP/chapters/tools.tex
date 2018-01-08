@@ -1,2 +1,47 @@
-\chapter{Tools and datasets used}
-Since specific data and tools have to be used, it’s good to present these concretely, so that the mentors know that you have a grasp of all aspects of the project.
+\section{Tools and datasets used} \label{tool}
+In the following sections a short overview of proposed tools and data are presented. These relate to the methodology described in chapter \ref{methodology} and methods selected in section \ref{sec:smethod}.
+
+\subsection{Tools}
+The proposed tools in table \ref{tab:tools} are select for the assessment of the existing methods as described in section \ref{emethod}. These are preliminary propositions and might change in the duration of the research project.\\
+\begin{table} [h]
+	\centering
+	\begin{footnotesize}
+		\begin{tabular}{lp{5cm}p{4cm}}
+			\toprule
+			Tool & For & Notes \\
+			\midrule
+			Doris & To prepare SAR datasets for change detection & Cywin needs to be installed; New to author \\
+			Qgis & For visualisation, change detection and Geo-referencing & -- \\
+			Python & General programming language, implementation of Tensorflow available & Change detection possible as well \\
+			Tensorflow & Machine learning tool, with pre-trained networks available & Good documentation; new to author \\
+			R & Validation and statistical analysis & Has simple machine learning capabilities \\
+			\bottomrule
+		\end{tabular}
+	\end{footnotesize}
+	\caption{Tools proposed for this research. [From: own work]}
+	\label{tab:tools}
+\end{table}
+\subsection{Data} \label{sec:data}
+The data for the assessments of the methods and development of the proposed methods has been summarised in table \ref{tab:data}. More datasets than needed for the assessment of the existing methods are represented, as the association between datasets needed for the proposed method might dependent on other datasets. The author is in possession of all datasets as described in section \ref{emethod}. It must be noted that not all UAV optical data is of the exact same resolution or from the exact date, therefore the average has been indicated for the resolution and a interval for the dates.\\
+\begin{table} [h]
+	\centering
+	\begin{footnotesize}
+		\begin{tabular}{lllll}
+			\toprule
+			Platform & Technique & Resolution & Acquisition date & Source \\
+			\midrule
+			Satellite & SAR & 2.7x22 m & 16-Sept-2017 & Sentinel    \\
+			Satellite & SAR & 2.7x22 m & 25-Sept-2017 & Sentinel    \\
+			Satellite & Optical & 0.49x0.49m & 14-Sept-2017 & DigitalGlobe    \\
+			Satellite & Optical & 0.49x0.49m & 20-May-2017 & DigitalGlobe    \\
+			Aerial & Optical & 0.2x0.2 m & 20-Feb-2017 & IGN    \\
+			\ac{uav} & Optical & 0.04x0.04 m & 11-Sept-2017 -- 2-Oct-2017  & \ac{nlrc} -- RescUAV    \\
+			Satellite & \ac{dem} & 30x30 m & unknown & \ac{jaxa}\\
+			-- & Ground truth & building & 2-Oct-2017 & \ac{nlrc}\\
+			-- & Building outline & building & 2-Oct-2017 & OpenStreetMap\\
+			\bottomrule
+		\end{tabular}
+	\end{footnotesize}
+	\caption{Datasets available for this research. [From: own work]}
+	\label{tab:data}
+\end{table}

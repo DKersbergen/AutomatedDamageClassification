@@ -1,2 +1,66 @@
-\chapter{Related work}
-A related work section in which the relevant literature is presented and linked to the project.
+\chapter{Related work} \label{relate}
+This chapter will give an overview of the literature related to the classification of damage to buildings inflicted by disasters. Firstly the definition of some of the terms will be discussed, further defining the research scope. This is followed by a description of categorisations within the field of remote sensing for disaster situations. From these categorisations a selection of methods is made to be used in this research as described in chapter \ref{methodology}. The research discussed is not limited to hurricane damage, as the classification of external damage to buildings is comparable between various natural disasters. \\
+\section{definition}\label{sec:def}
+The International Federation of Red Cross and Red Crescent Societies \citeyearpar{IFRC2017} defines a disaster as follows: 
+\begin{quote}
+"A disaster is a sudden, calamitous event that seriously disrupts the functioning of a community or society and causes human, material, and economic or environmental losses that exceed the community’s or society’s ability to cope using its own resources."
+\end{quote}
+These characteristics in this definition emphasize the need for timely intervention by others outside a community or area to help and support those affected. Ray Shirkhodai notes in \citet[p. i]{AlAchkar2008} that a rapid overview of the situation and extent of damage is necessary to achieve this goal. This is corroborated by \citet{Schweier2006}. To do so with minimum risk to aid workers, the international community established the so-called International Charter \citep{Bessis2003}. With resources from various space agencies around the world it became possible to use \ac{sem} to provide rapid situation awareness after a disaster. However as described by \citet{Kerle2008} there are a diverse selection of other remote sensing techniques which can be used for the collection of data, which could make other forms of \ac{em} possible. This research will take into account this broader approach to remote sensing, looking at advances in \ac{uav} and shrinking data collection technologies as new data sources in the immediate aftermath of a disaster.\\
+ 
+The implementation of \ac{em} has various scales of resolution. For the purpose of this research these have been categorised as follows:
+
+\begin{itemize}
+	\item Damage detection
+	\item Damage classification
+	\item Damage assessment
+\end{itemize}
+
+The lowest resolution considered is damage detection. In this form of \ac{em} the focus is to differentiate between buildings with and without damage. This comparable to the studies that can distinguish between two grades of damage as described by \citet{Dong2013}. An example of this is \citet{Wang2012}, in which image classification is used to derive the difference between buildings damage and not damaged by a disaster.\\
+
+One step up in resolution from detection is the damage classification as used within this research. For classification various grades of damage need to be considered. \cite{Dong2013} describe this as three grades or more. They also provide a framework for five damage classes that can be used in achieving damage classification. These classes are derived from \citet{Grunthal1998}, however the ambiguity introduced with five classes, especially between the three middle grades, is not beneficial for humanitarian aid organisations. Therefore the classification method proposed by \citet{AlAchkar2008} will be used in this research. This framework is focused on damage inflicted to buildings, allows for sufficient variation between damage grades and has example of damage induced by wind. A variation of this is also used by the \ac{nlrc} [available on \href{https://www.510.global/visual-guide-damage-assesment/}{510.global}].\\
+
+The last resolution is damage assessment. This requires more insight in the damage caused, as well as interior damage which is usually not observable in \ac{em} or \ac{sem}. Therefore people on the ground are required to do thorough investigation into the damage caused. The exception to this is the use of high resolution oblique imagery, which in some cases might be able to distinguish damage in the vertical plane \citep{Vetrivel2016a}, however most damage assessment will need to be done by humans with guides from governments, like from \citet{FEMA2016}.\\
+
+\section{framework}\label{sec:framework}
+To assess the various remote sensing techniques and damage classification methods a theoretical framework has to be established. This framework will allow the organisation of methods and technologies and will allow the selection of appropriate approaches in various circumstances. The framework presented here is based on literature research from \citet{Dong2013} and \citet{Kerle2008} in combination with requirements from the field.\\
+
+Requirements from humanitarian organisations can be derived from the definition of a disaster as presented in section \ref{sec:def} and indications from \citet{AlAchkar2008} and \citet{Schweier2006}. The unexpected nature of a natural disaster make it hard to prepare; the collection of datasets can therefore most of the time not be planned in advance. This is described by \citet{Christopher2015} as window of opportunity. This describes the short amount of time certain data can be collected, this may vary per disaster. An example of this is that in case of a hurricane, clouds can obscure the struck area. Furthermore, is the magnitude of a disaster important for the planning of relief operations \citep{AlAchkar2008, Schweier2006}. Which requires timely data, this is an conceptualisation of the time it takes to get data to the user while it is, still, or most valuable \citep{Christopher2015}. In the case of disaster this can be defined as directly when available. The faster data is available for analysis, the quicker people affected by a disaster can be helped. 
+Furthermore is the precision of the data a consideration as well. For the very first relief operations global data of damage will suffice as these kind of operations require a specific time to set up as well. However very quickly after that more detailed information is necessary for the planning of future operations and long term relief. Reflecting back on the requirements of time and resolution, it can be concluded that the chosen remote sensing techniques are very dependent on the resolution they can offer as well as the timely manner they can do that in. The methods chosen for implementation will need to reflect this as well.\\
+
+An extensive analysis and description of remote sensing techniques can be found in \citet{Kerle2008}. The various specifications, capabilities, operation advantages and limitations, and examples are presented per system. This allows for a good overview of all the possibilities. However humanitarian organisations do rarely have the opportunity to choose out of all options as they require specialist operators or equipment. Those are most of the time neither available in disaster areas which limits the options. Exceptions on this rule is the availability of satellite data that becomes more open for humanitarian organisations around the world through projects like the International Charter \citep{Voigt2016}. This program allows all involved in relief operations to gain access to satellite data and subsequent information. The advances of portable \ac{uav}s and smaller capture technologies also allows humanitarian organisations to quickly gather high resolution imagery of areas affected by disasters. They provide an economical  substitute for regular aerial surveillance \citep{Nex2014} and are already more implemented in disaster situations \citep{Lieshout2017,Johnson2017}.\\
+
+\citet{Dong2013} give an overview of various building damage research up until 2013. A summery of the various techniques and data types is also presented. The classification of methods is done on the basis of data, collection platform and amount of damage levels that can be detected. This subdivision allows for the selection of appropriate methods in varying situations. However the clear absence of any indication of accuracy of methodologies only allows for an overview of the field of research and less for selection for implementation in operational procedures. \\
+
+For an adequate selection of methods a combination of the above, with time indication, resolution, data, and accuracy is necessary. Some of these indicator will be connected and change dependently, however an overview in which all is displayed allows for a quicker overview of methods connected to remote sensing techniques. Section \ref{sec:etech} gives such an overview.\\
+
+\section{Existing techniques}\label{sec:etech}
+Table \ref{tab:emethod} summarises the findings of various research of the past 15 years into the automated detection or classification of damage to buildings. This is a non-extensive summary but allows for a clear overview of the various approaches. Only automated solutions are taken into consideration, all information about technique, resolution and accuracy has been taken from the respective paper, while acquisition time has been related to sensing technique or taken from \citet{Kerle2008}. From this table it is clear that most research is already focused on the datasets mostly available in disaster situations. Furthermore is most of the research dedicated to the detection of damage and not classification. This proves a gap in the research which could benefit the humanitarian organisations. In this the fusion of methods with high accuracies and complementary remote sensing techniques could hence lead to improvements in the automated classification of damage.
+
+\begin{table} [h]
+	\centering
+	\begin{footnotesize}
+		\begin{tabular}{p{3cm}p{2.75cm}p{1.375cm}ll}
+			\toprule
+			Method & Technique & Resolution & acqn time & accuracy \\
+			\midrule
+			\citep{Antonietta2015}$^{\circ}$ & Satellite Optical & 0.8x0.8m & 6 days & 70-80\%\\
+			\citep{Brunner2010}$^{\circ}$ & Satellite Optical and Satellite SAR & 0.6x0.6m 1.1 x 1.0m & 6 days & 90\%\\
+			\citep{Li2017}$^{\circ}$ & Satellite Optical & 0.6x0.6m & 6 days & 70\%\\
+			\citep{Martha2015}$^{\circ}$ & Satellite Optical & 0.6x0.6m & 6 days & NA\\
+			\citep{Menderes2015}$^{\circ}$ & Aerial Optical & 0.3x0.3m  & Days &90\%\\
+			\citep{Ozisik2004}$^{\circ}$ & \ac{uav} Optical & NA  & Hours & 70-80\%\\
+			\citep{Samadzadegan2005}* & Satellite Optical & 2.44x2.44m  & 3 days & 74\%\\
+			\citep{Vetrivel2016b}$^{\circ}$ & \ac{uav} Optical & NA  & Hours & 80-90\%\\
+			\citep{Yun2015}$^{\circ}$ & Satellite SAR & 2.7x22m  & 6 days & NA\\
+			\bottomrule
+		\end{tabular}
+	\end{footnotesize}
+	\caption{Overview of existing methods. * marks classification, and $^{\circ}$ marks detection as described in section \ref{sec:def} [From: own work]}
+	\label{tab:emethod}
+\end{table}
+
+
+\subsection{Selected methods} \label{sec:smethod}
+Methods considered for this research are limited to those that can be used with the data available and that have considerable accuracies in the prediction of damage classes. From table \ref{tab:emethod} it is clear that there are various valid options for the detection of damage and even possibilities for the classification of damage. \\
+
+The selected methods for this research are \citet{Vetrivel2016b} and \citet{Yun2015}. These showed most promise in the research of the summary represented above. \citet{Vetrivel2016b} uses a machine learning approach and achieves a high accuracy. This methods is similar, using more modern techniques to \cite{Samadzadegan2005} which was able to achieve classification of datasets available in this research. The implementation of the method will prove the transferability as claimed in the paper and will provide insights into the use of machine learning for classification of damage. \citet{Yun2015} is the only paper in the list that can cite users of the data and provides analysis using this method for other disasters. Proving the worth of the method and possible transferability. Both methods also use complementary techniques which could facilitate the development for an improved method using the fusion of data sources.

@@ -1,6 +1,21 @@
 \BOOKMARK [0][]{chapter.1}{1 Introduction}{}% 1
-\BOOKMARK [0][]{chapter.2}{2 Related work}{}% 2
-\BOOKMARK [0][]{chapter.3}{3 Research questions}{}% 3
-\BOOKMARK [0][]{chapter.4}{4 Methodology}{}% 4
-\BOOKMARK [0][]{chapter.5}{5 Time planning}{}% 5
-\BOOKMARK [0][]{chapter.6}{6 Tools and datasets used}{}% 6
+\BOOKMARK [1][-]{section.1.1}{1.1 Hurricane Irma}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{1.2 Remote Sensing}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.3}{1.3 research}{chapter.1}% 4
+\BOOKMARK [0][]{chapter.2}{2 Research objectives}{}% 5
+\BOOKMARK [1][-]{section.2.1}{2.1 research scope}{chapter.2}% 6
+\BOOKMARK [0][]{chapter.3}{3 Related work}{}% 7
+\BOOKMARK [1][-]{section.3.1}{3.1 definition}{chapter.3}% 8
+\BOOKMARK [1][-]{section.3.2}{3.2 framework}{chapter.3}% 9
+\BOOKMARK [1][-]{section.3.3}{3.3 Existing techniques}{chapter.3}% 10
+\BOOKMARK [2][-]{subsection.3.3.1}{3.3.1 Selected methods}{section.3.3}% 11
+\BOOKMARK [0][]{chapter.4}{4 Methodology}{}% 12
+\BOOKMARK [1][-]{section.4.1}{4.1 Theoretical framework}{chapter.4}% 13
+\BOOKMARK [1][-]{section.4.2}{4.2 Existing methods}{chapter.4}% 14
+\BOOKMARK [1][-]{section.4.3}{4.3 Proposed method}{chapter.4}% 15
+\BOOKMARK [0][]{chapter.5}{5 Organisation}{}% 16
+\BOOKMARK [1][-]{section.5.1}{5.1 Planning}{chapter.5}% 17
+\BOOKMARK [1][-]{section.5.2}{5.2 Tools and datasets used}{chapter.5}% 18
+\BOOKMARK [2][-]{subsection.5.2.1}{5.2.1 Tools}{section.5.2}% 19
+\BOOKMARK [2][-]{subsection.5.2.2}{5.2.2 Data}{section.5.2}% 20
+\BOOKMARK [0][]{appendix.A}{A Gantt Chart}{}% 21
