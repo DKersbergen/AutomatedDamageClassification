@@ -1,0 +1,64 @@
+
+
+\newcommand{\myName}{Daniël Kersbergen}
+\newcommand{\myTitle}{Automated building damage classification using remotely sensed data}
+\newcommand{\mySubTitle}{Case study: Hurricane damage on St. Maarten}
+
+\newcommand{\myGroup}{Environmental Technology and Design}
+\def\myGroupLogo{figs/logo-01.png}
+\newcommand{\myDepartment}{Department of Urbanism}
+\newcommand{\myFaculty}{Faculty of Architecture \& the Built Environment}
+\newcommand{\myUni}{Delft University of Technology}
+
+
+\def\myGroupLogoGeo{figs/logo-03.jpg}
+\newcommand{\myDepartmentGeo}{Department of Geoscience and Remote Sensing}
+\newcommand{\myFacultyGeo}{Faculty of Civil Engineering and Geosciences}
+
+\newcommand{\myCompany}{510}
+\def\myCompanyLogo{figs/logo-02.png}
+\newcommand{\myCompanyDepartment}{An initiative of}
+\newcommand{\myLargerComp}{The Netherlands Red Cross}
+
+\newcommand{\myGraduationYear}{2018}
+\newcommand{\myGraduationMonth}{July}
+
+\newcommand{\myProf}{Dr.\ }
+\newcommand{\mySupervisor}{Dr.\ Jorge Lopes Gil}
+\newcommand{\myOtherSupervisor}{Dr.\ Stef L. M. Lhermitte}
+\newcommand{\myCoreader}{TBD}
+\newcommand{\myCompSupervisor}{Dr. Stefania Giodini}
+
+
+%-- for names for \autoref commands
+\def\chapterautorefname{Chapter}
+\def\sectionautorefname{Section}
+\def\subsectionautorefname{Section}
+\def\subsubsectionautorefname{Section}
+\def\algorithmautorefname{Algorithm}
+ 
+%-- for pdf metadata
+\hypersetup{pdfauthor={\myName}}
+\hypersetup{pdfkeywords={graduation plan, geomatics, TU Delft}}
+\hypersetup{pdfsubject={A graduation plan submitted to the Delft University of Technology in partial fulfillment of the requirements for the degree of Master of Science in Geomatics for the Built Environment}}
+\hypersetup{pdftitle={\myTitle}}
+
+%-- handy shortcuts
+\newcommand{\ie}{ie}
+\newcommand{\eg}{eg}
+\newcommand{\reffig}[1]{Figure~\ref{#1}}
+\newcommand{\refsec}[1]{Section~\ref{#1}}
+
+%--
+% Following settings should be not modified, unless you really know what you're doing
+%--
+
+%-- for multiline chapter headings
+\renewcommand\formatchapter[1]{% 
+  \begin{minipage}[b]{0.15\linewidth}
+    \chapterNumber
+  \end{minipage}%
+  \begin{minipage}[b]{0.9\linewidth}
+    \raggedright\spacedallcaps{#1}
+  \end{minipage}
+} 
