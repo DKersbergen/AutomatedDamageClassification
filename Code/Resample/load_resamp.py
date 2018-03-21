@@ -2,7 +2,9 @@
 from osgeo import gdal, osr
 import numpy as np
 from skimage import color
+from skimage.transform import downscale_local_mean as dwn
 from skimage.viewer import ImageViewer as ImgV
+from PIL import Image
 
 def array(name):
     """
@@ -11,39 +13,33 @@ def array(name):
     geo = gdal.Open(name)
     arr = geo.ReadAsArray()
     shp = arr.shape
-    print(shp)
     out = np.rot90(np.array((arr[0].ravel(),arr[1].ravel(),arr[2].ravel()), dtype=np.uint8))
-    out1 = np.reshape(out, (shp[1],shp[2],shp[0]) )
-    print(out1)
-
-    return out1
-    
-def low_to_high(lowres, highres):
-    """
-    Resamples the low resolution optical image
-    to match the dimensions of the higher resolution image
-    """
-    pass
-
+    out1 = np.reshape(out, (shp[1],shp[2],shp[0]))
+    return out1,shp
 
 def high_to_low(highres, lowres):
     """
     Resamples the high resolution optical image
     to match the dimensions of the lower resolution image
-    This method is preffered as it does not create artifacts
+    This method is prefered over the reverse as it does not create artifacts
     """
     pass
 
-lowres = array("lowres.tif")
-#highres = array("highres.tif")
+lowres,lshp = array("lowres.tif")
+highres,hshp = array("highres.tif")
 
-lowreshsv = color.convert_colorspace(lowres,'RGB','HSV')
-print(lowres)
-
+#lowreshsv = color.convert_colorspace(lowres,'RGB','HSV')
 ImgV(lowres).show()
-print(lowreshsv)
+ImgV(highres).show()
+print(highres.shape, lshp)
 
-ImgV(lowreshsv).show()
+im = Image.open("lowres.tif")
+im.show()
+print(im)
+
+hdwn = dwn(highres, (hshp[1]/lshp[1],hshp[2]/lshp[2],1))
+print(hdwn.shape)
+ImgV(hdwn).show()
 #print(np.transpose(lowres[1].ravel()))
 #print(lowreshsv)
 print('done')
