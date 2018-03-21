@@ -2,10 +2,7 @@ import numpy as np
 
 def hist_match(after, before):
     """
-    Code based on answer from Alistair Muldal - ali_m
-    https://stackoverflow.com/questions/32655686/histogram-matching-of-two-images-in-python-2-x
-
-    Normalisation of images based on histogram matching to the before image.
+        Normalisation of images based on histogram matching to the before image.
     Input:
     -----------
         after: np.ndarray
