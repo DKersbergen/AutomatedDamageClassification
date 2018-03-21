@@ -4,6 +4,7 @@ import numpy as np
 from skimage import color
 from skimage.transform import downscale_local_mean as dwn
 from skimage.viewer import ImageViewer as ImgV
+import colorsys
 from PIL import Image
 
 def array(name):
@@ -17,6 +18,24 @@ def array(name):
     out1 = np.reshape(out, (shp[1],shp[2],shp[0]))
     return out1,shp
 
+def RGBtoVal(img, dim):
+    if isinstance(img,Image.Image):
+        print("go")
+        print(dim)
+        r,g,b = img.split()
+        Vdat = [] 
+        ValIm = Image.new("L",dim)
+        for rd,gn,bl in zip(r.getdata(),g.getdata(),b.getdata()) :
+            h,s,v = colorsys.rgb_to_hsv(rd/255.,gn/255.,bl/255.)
+            Vdat.append(int(v*255.))
+        print(type(ValIm))
+        ValIm.putdata(Vdat)
+        print(type(ValIm))
+        return ValIm
+    else:
+        print("fail")
+        return None
+
 def high_to_low(highres, lowres):
     """
     Resamples the high resolution optical image
@@ -24,7 +43,7 @@ def high_to_low(highres, lowres):
     This method is prefered over the reverse as it does not create artifacts
     """
     pass
-
+"""
 lowres,lshp = array("lowres.tif")
 highres,hshp = array("highres.tif")
 
@@ -32,15 +51,23 @@ highres,hshp = array("highres.tif")
 ImgV(lowres).show()
 ImgV(highres).show()
 print(highres.shape, lshp)
+"""
+lowres = Image.open("lowres.tif")
+highres = Image.open("highres.tif")
+vallow = RGBtoVal(lowres, lowres.size)
+valhigh = RGBtoVal(highres, highres.size)
+resamp = valhigh.resize(lowres.size, resample=Image.LANCZOS)
+resampup = vallow.resize(highres.size, resample=Image.LANCZOS)
+vallow.show()
+valhigh.show()
+resamp.show()
+resampup.show()
 
-im = Image.open("lowres.tif")
-im.show()
-print(im)
-
+"""
 hdwn = dwn(highres, (hshp[1]/lshp[1],hshp[2]/lshp[2],1))
 print(hdwn.shape)
 ImgV(hdwn).show()
 #print(np.transpose(lowres[1].ravel()))
 #print(lowreshsv)
 print('done')
-
+"""
