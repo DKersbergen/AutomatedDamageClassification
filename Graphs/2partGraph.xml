@@ -1,0 +1,89 @@
+<graph id="Graph">
+  <version>1.0</version>
+  <node id="TOPSAR-Merge">
+    <operator>TOPSAR-Merge</operator>
+    <sources>
+      <sourceProduct.2 refid="ProductSet-Reader"/>
+    </sources>
+    <parameters class="com.bc.ceres.binding.dom.XppDomElement">
+      <selectedPolarisations/>
+    </parameters>
+  </node>
+  <node id="TopoPhaseRemoval">
+    <operator>TopoPhaseRemoval</operator>
+    <sources>
+      <sourceProduct refid="TOPSAR-Merge"/>
+    </sources>
+    <parameters class="com.bc.ceres.binding.dom.XppDomElement">
+      <orbitDegree>3</orbitDegree>
+      <demName>SRTM 1Sec HGT</demName>
+      <externalDEMFile/>
+      <externalDEMNoDataValue>0.0</externalDEMNoDataValue>
+      <tileExtensionPercent>100</tileExtensionPercent>
+      <outputTopoPhaseBand>false</outputTopoPhaseBand>
+      <outputElevationBand>true</outputElevationBand>
+      <outputLatLonBands>false</outputLatLonBands>
+    </parameters>
+  </node>
+  <node id="Write(2)">
+    <operator>Write</operator>
+    <sources>
+      <sourceProduct refid="GoldsteinPhaseFiltering"/>
+    </sources>
+    <parameters class="com.bc.ceres.binding.dom.XppDomElement">
+      <file>D:\GEO2020\Data\InterferTest\fail\S1A_IW20170823_20170823_Orb_Stack_Ifg_Deb_mrg_DInSAR_Flt.dim</file>
+      <formatName>BEAM-DIMAP</formatName>
+    </parameters>
+  </node>
+  <node id="GoldsteinPhaseFiltering">
+    <operator>GoldsteinPhaseFiltering</operator>
+    <sources>
+      <sourceProduct refid="TopoPhaseRemoval"/>
+    </sources>
+    <parameters class="com.bc.ceres.binding.dom.XppDomElement">
+      <alpha>1.0</alpha>
+      <FFTSizeString>64</FFTSizeString>
+      <windowSizeString>3</windowSizeString>
+      <useCoherenceMask>false</useCoherenceMask>
+      <coherenceThreshold>0.2</coherenceThreshold>
+    </parameters>
+  </node>
+  <node id="Write">
+    <operator>Write</operator>
+    <sources>
+      <sourceProduct refid="TopoPhaseRemoval"/>
+    </sources>
+    <parameters class="com.bc.ceres.binding.dom.XppDomElement">
+      <file>D:\GEO2020\Data\Interferometry\Combine\S1A_IW20170823_20170823_Orb_Stack_Ifg_Deb_mrg_DInSAR.dim</file>
+      <formatName>BEAM-DIMAP</formatName>
+    </parameters>
+  </node>
+  <node id="ProductSet-Reader">
+    <operator>ProductSet-Reader</operator>
+    <sources/>
+    <parameters class="com.bc.ceres.binding.dom.XppDomElement">
+      <fileList>D:\GEO2020\Data\Interferometry\1VV\S1A_IW20170823_20170823_Orb_Stack_Ifg_Deb.dim,D:\GEO2020\Data\Interferometry\2VV\S1A_IW20170823_20170811_Orb_Stack_Ifg_Deb.dim</fileList>
+    </parameters>
+  </node>
+  <applicationData id="Presentation">
+    <Description/>
+    <node id="TOPSAR-Merge">
+      <displayPosition x="217.0" y="194.0"/>
+    </node>
+    <node id="TopoPhaseRemoval">
+      <displayPosition x="353.0" y="194.0"/>
+    </node>
+    <node id="Write(2)">
+      <displayPosition x="683.0" y="195.0"/>
+    </node>
+    <node id="GoldsteinPhaseFiltering">
+      <displayPosition x="496.0" y="195.0"/>
+    </node>
+    <node id="Write">
+      <displayPosition x="383.0" y="252.0"/>
+    </node>
+    <node id="ProductSet-Reader">
+      <displayPosition x="61.0" y="192.0"/>
+    </node>
+  </applicationData>
+</graph>
