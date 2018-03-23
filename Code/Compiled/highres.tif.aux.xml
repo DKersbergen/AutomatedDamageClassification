@@ -1,0 +1,36 @@
+<PAMDataset>
+  <Metadata>
+    <MDI key="LL_LAT">18.04802059368568833975</MDI>
+    <MDI key="LL_LON">-63.04351604216095239508</MDI>
+    <MDI key="LR_LAT">18.04802134353955267443</MDI>
+    <MDI key="LR_LON">-63.04004634580528687593</MDI>
+    <MDI key="UL_LAT">18.05081903061669379440</MDI>
+    <MDI key="UL_LON">-63.04351673058655336490</MDI>
+    <MDI key="UR_LAT">18.05081978059459757446</MDI>
+    <MDI key="UR_LON">-63.04004697934017542593</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <Metadata>
+      <MDI key="STATISTICS_MAXIMUM">255</MDI>
+      <MDI key="STATISTICS_MEAN">90.335638543107</MDI>
+      <MDI key="STATISTICS_MINIMUM">1</MDI>
+      <MDI key="STATISTICS_STDDEV">44.423375190543</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="2">
+    <Metadata>
+      <MDI key="STATISTICS_MAXIMUM">255</MDI>
+      <MDI key="STATISTICS_MEAN">80.933147846405</MDI>
+      <MDI key="STATISTICS_MINIMUM">1</MDI>
+      <MDI key="STATISTICS_STDDEV">46.823308702322</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="3">
+    <Metadata>
+      <MDI key="STATISTICS_MAXIMUM">248</MDI>
+      <MDI key="STATISTICS_MEAN">69.84767788334</MDI>
+      <MDI key="STATISTICS_MINIMUM">1</MDI>
+      <MDI key="STATISTICS_STDDEV">47.613414923197</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>
