@@ -2,17 +2,58 @@
 \vspace {-\cftbeforechapskip }
 \contentsline {chapter}{\numberline {1}\spacedlowsmallcaps {Introduction}}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Problem statement}{2}{section.1.1}
-\contentsline {section}{\numberline {1.2}Research objectives}{2}{section.1.2}
-\contentsline {section}{\numberline {1.3}research scope}{3}{section.1.3}
-\contentsline {section}{\numberline {1.4}definition}{3}{section.1.4}
-\contentsline {subsection}{\numberline {1.4.1}Hurricane Irma}{4}{subsection.1.4.1}
-\contentsline {chapter}{\numberline {2}\spacedlowsmallcaps {Theoretical framework}}{5}{chapter.2}
-\contentsline {section}{\numberline {2.1}Background}{5}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Disaster}{5}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Classification}{5}{subsection.2.1.2}
-\contentsline {section}{\numberline {2.2}Related work}{5}{section.2.2}
-\contentsline {chapter}{\numberline {3}\spacedlowsmallcaps {Methodology}}{7}{chapter.3}
-\contentsline {chapter}{\numberline {4}\spacedlowsmallcaps {Implementation}}{9}{chapter.4}
-\contentsline {chapter}{\numberline {5}\spacedlowsmallcaps {Results}}{11}{chapter.5}
-\contentsline {chapter}{\numberline {6}\spacedlowsmallcaps {Conclusions}}{13}{chapter.6}
-\contentsline {chapter}{\numberline {7}\spacedlowsmallcaps {Discussion}}{15}{chapter.7}
+\contentsline {section}{\numberline {1.2}Research objectives}{3}{section.1.2}
+\contentsline {section}{\numberline {1.3}Research methodology}{3}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Preparation}{3}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Implementation and Comparison}{4}{subsection.1.3.2}
+\contentsline {section}{\numberline {1.4}Research scope}{4}{section.1.4}
+\contentsline {section}{\numberline {1.5}Reading guide}{5}{section.1.5}
+\contentsline {chapter}{\numberline {2}\spacedlowsmallcaps {Theoretical framework}}{7}{chapter.2}
+\contentsline {section}{\numberline {2.1}Disaster}{7}{section.2.1}
+\contentsline {section}{\numberline {2.2}Detection, Classification, and Assessment}{8}{section.2.2}
+\contentsline {section}{\numberline {2.3}Method assessment framework}{10}{section.2.3}
+\contentsline {section}{\numberline {2.4}Datasets available}{11}{section.2.4}
+\contentsline {section}{\numberline {2.5}Existing techniques}{12}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Equalisation and subtraction - \citet {Yun2015}}{13}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Convolutional Neural Network - \cite {Vetrivel2016b}}{15}{subsection.2.5.2}
+\contentsline {section}{\numberline {2.6}Related background information}{16}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}Colour space}{16}{subsection.2.6.1}
+\contentsline {subsection}{\numberline {2.6.2}Inter-rater statistics}{17}{subsection.2.6.2}
+\contentsline {chapter}{\numberline {3}\spacedlowsmallcaps {Implementation}}{19}{chapter.3}
+\contentsline {section}{\numberline {3.1}Preparation}{19}{section.3.1}
+\contentsline {section}{\numberline {3.2}Tools and datasets used}{19}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Tools}{19}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Data}{20}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Research implementation}{22}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Equalisation and subtraction}{22}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Convolutional Neural Network}{24}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.4}Assessment of Results}{25}{section.3.4}
+\contentsline {chapter}{\numberline {4}\spacedlowsmallcaps {Results}}{27}{chapter.4}
+\contentsline {section}{\numberline {4.1}Equalisation and subtraction}{27}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}\ac {sar} data}{27}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Optical data}{28}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}Convolutional Neural Network}{31}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Optical data}{31}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}\ac {sar} data}{32}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Comparison}{32}{section.4.3}
+\contentsline {section}{\numberline {4.4}Extension to classification}{34}{section.4.4}
+\contentsline {section}{\numberline {4.5}Discussion}{35}{section.4.5}
+\contentsline {chapter}{\numberline {5}\spacedlowsmallcaps {Conclusions}}{37}{chapter.5}
+\contentsline {section}{\numberline {5.1}How is damage determined?}{37}{section.5.1}
+\contentsline {section}{\numberline {5.2}What criteria are set for damage classification methods?}{37}{section.5.2}
+\contentsline {section}{\numberline {5.3}Which methods already exist?}{38}{section.5.3}
+\contentsline {section}{\numberline {5.4}How do these methods perform?}{38}{section.5.4}
+\contentsline {section}{\numberline {5.5}How does the state of the art compare to these methods?}{38}{section.5.5}
+\contentsline {section}{\numberline {5.6}Summary}{39}{section.5.6}
+\contentsline {chapter}{\numberline {6}\spacedlowsmallcaps {Recommendations}}{41}{chapter.6}
+\contentsline {section}{\numberline {6.1}Optical Data}{41}{section.6.1}
+\contentsline {section}{\numberline {6.2}\ac {sar} Data}{41}{section.6.2}
+\contentsline {section}{\numberline {6.3}Data Combination}{42}{section.6.3}
+\contentsline {section}{\numberline {6.4}Disaster Specific Properties}{42}{section.6.4}
+\contentsline {section}{\numberline {6.5}Method Assessment Framework}{42}{section.6.5}
+\contentsline {section}{\numberline {6.6}Comparison of Results}{43}{section.6.6}
+\contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {Appendices}}{49}{chapter.1}
+\contentsline {section}{\numberline {A.1}Neural Network Training for Damage Detection}{49}{section.1.1}
+\contentsline {section}{\numberline {A.2}Results Empirical Approach to Damage Detection}{50}{section.1.2}
+\contentsline {section}{\numberline {A.3}Neural Network Training for Damage Classification}{51}{section.1.3}
+\contentsline {section}{\numberline {A.4}Results Empirical Approach to Damage Detection}{52}{section.1.4}

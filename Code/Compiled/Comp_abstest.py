@@ -3,6 +3,7 @@ import numpy as np
 import colorsys
 from osgeo import gdal, osr
 from PIL import Image
+import gc
 
 def openGeo(pointer):
     """
@@ -34,12 +35,15 @@ def RGBtoVal(img, dim):
         r,g,b = img.split() #split bands
         Vdat = [] 
         for rd,gn,bl in zip(r.getdata(),g.getdata(),b.getdata()) :
-            v = colorsys.rgb_to_hsv(rd/255.,gn/255.,bl/255.)[2] #RGB to HSV
-            Vdat.append(int(v*255.))
+            #v = colorsys.rgb_to_hsv(rd/255.,gn/255.,bl/255.)[2] #RGB to HSV (normalised)
+            #Vdat.append(v)
+            #h = colorsys.rgb_to_hsv(rd/255.,gn/255.,bl/255.)[0] #RGB to HSV (normalised)
+            #Vdat.append(h)
+            s = colorsys.rgb_to_hsv(rd/255.,gn/255.,bl/255.)[1] #RGB to HSV (normalised)
+            Vdat.append(s)
         return np.reshape(np.array(Vdat),(dim[1],dim[0])) #return value as numpy array
     else:
-        raise TypeError("Expected img to be an instance of Image.Image")
-        
+        raise TypeError("Expected img to be an instance of Image.Image")      
 
 def resample(low, lowdim, high, highdim, updo):
     if updo == "UP":
@@ -63,9 +67,9 @@ def saveGeo(outName, dim, transform, project, inpdata):
             Nothing
     """
     driver = gdal.GetDriverByName("GTiff")
-    saveTif = driver.Create(outName, dim[0], dim[1], 1, gdal.GDT_Byte)
+    saveTif = driver.Create(outName, dim[0], dim[1], 1, gdal.GDT_Float32)
+    print("Dimension for out:", dim)
     saveTif.SetGeoTransform(transform)
-    print(project)
     saveTif.SetProjection(project)
     saveTif.GetRasterBand(1).WriteArray(inpdata)
     saveTif.FlushCache()
@@ -101,13 +105,66 @@ def hist_match(after, before):
 
     return interp_b_values[bin_idx].reshape(imgsize)
 
+"""
+for hide in hide:
+    op = openGeo("highres.tif")
+    op1 = openGeo("lowres.tif")
+    test = RGBtoVal(op[0].resize(op1[1], resample=Image.LANCZOS), op1[1])
+    test1 = RGBtoVal(op1[0], op1[1])
+    histmat = hist_match(test,test1)
+    subt = np.absolute(np.subtract(histmat, test1))
+    np.savetxt("testabs.txt", subt, delimiter=',')
+    saveGeo("testabs.tif",op1[1],op1[2],op1[3],subt)
 
-op = openGeo("highres.tif")
-op1 = openGeo("lowres.tif")
-test = RGBtoVal(op[0].resize(op1[1], resample=Image.LANCZOS), op1[1])
+    before = openGeo("RawTest3.tif")
+    after = openGeo("RawTest4.tif")
+    beforearr = np.asarray(before[0].getdata()).reshape(before[1][1],before[1][0])
+    afterarr = np.asarray(after[0].getdata()).reshape(before[1][1],before[1][0])
+    histmat = hist_match(afterarr, beforearr)
+    print(histmat.size)
+    print(before[2])
+    print(before[3])
+    subt = np.absolute(np.subtract(histmat, beforearr))
+    print(subt.shape)
+    saveGeo("testhistmatchtest.tif",before[1],before[2],before[3],subt)
+
+listName = os.listdir("data/Optical/sat/before")
+for name in listName:
+    print(name)
+    opb = openGeo("data/Optical/sat/before/" + name)
+    opa = openGeo("data/Optical/sat/after/" + name)
+    print("loaded")
+    resamp = opa[0].resize(opb[1], resample=Image.LANCZOS)
+    print("resized")
+    valb = RGBtoVal(opb[0], opb[1])
+    vala = RGBtoVal(resamp, opb[1])
+    print("Value from RGB")
+    histmat = hist_match(vala,valb)
+    print("Hist matched")
+    subt = np.absolute(np.subtract(histmat, valb))
+    print("subtracted")
+    saveGeo("data/Optical/results/S_sat_histmat_" + name,opb[1],opb[2],opb[3],subt)
+
+op = openGeo("data/Optical/after/GeoRe/RescUAV_21017_BillyFolly_modified.tif")
+op1 = openGeo("data/Optical/before/RescUAV_21017_BillyFolly.tif")
+test = RGBtoVal(op[0], op[1])
 test1 = RGBtoVal(op1[0], op1[1])
 histmat = hist_match(test,test1)
 subt = np.absolute(np.subtract(histmat, test1))
-np.savetxt("testabs.txt", subt, delimiter=',')
+saveGeo("data/Optical/Hist_BillyFolly_Geo.tif",op1[1],op1[2],op1[3],subt)
+"""
 
-saveGeo("testabs.tif",op1[1],op1[2],op1[3],subt)
+opb = openGeo("data/Optical/before/RescUAV_17917_Middle.tif")
+opa = openGeo("data/Optical/after/GeoRe/RescUAV_17917_Middle_modified4.tif")
+print("Loaded")
+resamp = opa[0].resize(opb[1], resample=Image.LANCZOS)
+print("Resampled")
+print(resamp.size)
+valb = RGBtoVal(opb[0], opb[1])
+vala = RGBtoVal(resamp, opb[1])
+print("Colourspace changed")
+histmat = hist_match(vala,valb)
+print("Histogram Matched")
+subt = np.absolute(np.subtract(histmat, valb))
+print("Subtracted")
+saveGeo("data/Optical/S_Hist_Middle_.tif",opb[1],opb[2],opb[3],subt) 

@@ -11,19 +11,65 @@ Ajmar, A., Boccccardo, P., and {Giulio Tonolo}, F. (2011).
 \newblock {Assessing Wind Disaster Damage to Structures}.
 \newblock {\em Harvard Humanitarian Initiative}, (viii).
 
+\bibitem[Antonietta et~al., 2015]{Antonietta2015}
+Antonietta, F., Boccardo, P., Tonolo, F.~G., Vassileva, M., and Dist, T.
+  (2015).
+\newblock {Damage assessment exploiting remote sensing imagery : review of the
+  typhoon haiyan case study}.
+\newblock pages 3556--3559.
+
 \bibitem[Bessis et~al., 2003]{Bessis2003}
 Bessis, J.-L., B{\'{e}}quignon, J., and Mahmood, A. (2003).
 \newblock {The International Charter Space and Major Disasters initiative}.
 \newblock {\em Acta Astronautica}, 54:183--190.
 
+\bibitem[Bhowmick et~al., 2008]{Bhowmick2008}
+Bhowmick, P.~K., Mitra, P., and Basu, A. (2008).
+\newblock {An agreement measure for determining inter-annotator reliability of
+  human judgements on affective text}.
+\newblock {\em Proceedings of the Workshop on Human Judgements in Computational
+  Linguistics - HumanJudge '08}, (August):58--65.
+
 \bibitem[Bijnsdorp, 2017]{Bijnsdorp2017}
 Bijnsdorp, L. (2017).
 \newblock {Hurricane Maria passes South of St. Maarten}.
+
+\bibitem[Brunner et~al., 2010]{Brunner2010}
+Brunner, D., Lemoine, G., and Bruzzone, L. (2010).
+\newblock {Earthquake Damage Assessment of Buildings Using VHR Optical and SAR
+  Imagery}.
+\newblock 48(5):2403--2420.
+
+\bibitem[Buckland and Gey, 1994]{Buckland1994}
+Buckland, M. and Gey, F. (1994).
+\newblock {The relationship between Recall and Precision}.
+\newblock {\em Journal of the American Society for Information Science},
+  45(1):12--19.
+
+\bibitem[Bulte, 2017]{Bulte2017}
+Bulte, E. (2017).
+\newblock {\em {Estimating Post-Earthquake Aid Priority Areas}}.
+\newblock PhD thesis, Univerity of Utrecht.
 
 \bibitem[{Centre for Research on the Epidemiology of Disaster}, 2015]{CRED2015}
 {Centre for Research on the Epidemiology of Disaster} (2015).
 \newblock {Poverty {\&} Death: Disaster Mortality 1996-2015}.
 \newblock pages 1--20.
+
+\bibitem[Chinchor, 1991]{Chinchor1991}
+Chinchor, N. (1991).
+\newblock {MUC-4 evaluation metrics}.
+\newblock {\em Proceedings of the 3rd conference on Message understanding -
+  MUC3 '91}, pages 22--29.
+
+\bibitem[Christopher and Doeglas, 2015]{Christopher2015}
+Christopher, D. and Doeglas, A. (2015).
+\newblock {\em {Time-Sensitive Remote Sensing}}.
+
+\bibitem[Cohen, 1960]{Cohen1960}
+Cohen, J. (1960).
+\newblock {A Coefficient of Agreement for Nominal Scales}.
+\newblock {\em Educational and Psychological Measurement}, XX(1):37--46.
 
 \bibitem[{Copernicus EMS}, 2017]{Cop2017}
 {Copernicus EMS} (2017).
@@ -32,6 +78,10 @@ Bijnsdorp, L. (2017).
 \bibitem[Coppola, 2015]{Coppola2015}
 Coppola, D.~P. (2015).
 \newblock {\em {The Management of Disasters}}.
+
+\bibitem[Crutchfield, 2013]{Crutchfield2013}
+Crutchfield, M. (2013).
+\newblock {Phases of Disaster Recovery: Emergency Response for the Long Term}.
 
 \bibitem[Daniell et~al., 2017]{Daniell2017}
 Daniell, J., M{\"{u}}hr, B., Pomonis, A., Sch{\"{a}}fer, A., and Mohr, S.
@@ -47,6 +97,11 @@ Dell'Acqua, F. and Gamba, P. (2012).
   limits, and perspectives}.
 \newblock {\em Proceedings of the IEEE}, 100(10):2876--2890.
 
+\bibitem[Dice, 1945]{Dice1945}
+Dice, L.~R. (1945).
+\newblock {Measures of the Amount of Ecologic Association Between Species}.
+\newblock {\em Ecology}, 26(3):297--302.
+
 \bibitem[Dominici et~al., 2017]{Dominici2017}
 Dominici, D., Alicandro, M., and Massimi, V. (2017).
 \newblock {UAV photogrammetry in the post-earthquake scenario: case studies in
@@ -59,6 +114,22 @@ Dong, L. and Shan, J. (2013).
   detection with remote sensing techniques}.
 \newblock {\em ISPRS Journal of Photogrammetry and Remote Sensing}, 84:85--99.
 
+\bibitem[Feinstein and Cicchetti, 1990]{Feinstein1990}
+Feinstein, A.~R. and Cicchetti, D.~V. (1990).
+\newblock {High agreement but low Kappa: I. the problems of two paradoxes}.
+\newblock {\em Journal of Clinical Epidemiology}, 43(6):543--549.
+
+\bibitem[Ferretti et~al., 2007]{Ferretti2007}
+Ferretti, A., Monti-guarnieri, A., Prati, C., and Rocca, F. (2007).
+\newblock {\em {InSAR Principles: Guidelines for SAR Interferometry Processing
+  and Interpretation}}.
+\newblock Number February. European Space Agency, Noordwijk, The Netherlands.
+
+\bibitem[Ford and Roberts, 1998]{ford1998colour}
+Ford, A. and Roberts, A. (1998).
+\newblock Colour space conversions.
+\newblock {\em Westminster University, London}, 1998:1--31.
+
 \bibitem[Gray, 2017]{Gray2017}
 Gray, M. (2017).
 \newblock {Demolished by Irma, Barbuda spared from Hurricane Jose}.
@@ -69,15 +140,43 @@ Gr\"unthal, G. (1998).
   luxembourg.
 \newblock {\em European Macroseismic Scale 1998}, 15:1--99.
 
+\bibitem[Hanssen, 2001]{Hanssen2001}
+Hanssen, R.~F. (2001).
+\newblock {\em {Radar Interferometry}}, volume 276.
+
+\bibitem[Hardesty, 2017]{Hardesty2017}
+Hardesty, L. (2017).
+\newblock {Explained: Neural networks}.
+
+\bibitem[Horvath, 2011]{Horvath2011}
+Horvath, M. (2011).
+\newblock {ColorSolid}.
+
+\bibitem[Hunt and Pointer, 2011]{Hunt2011}
+Hunt, R. W.~G. and Pointer, M. (2011).
+\newblock {Measuring colour}.
+
 \bibitem[IFRC, 2017]{IFRC2017}
 IFRC (2017).
 \newblock {What is a disaster?}
+
+\bibitem[Johnson, 2017]{Johnson2017}
+Johnson, E.~M. (2017).
+\newblock {Red Cross launches first U.S. drone program for disasters}.
+
+\bibitem[JPL, 2018]{JPL2018}
+JPL (2018).
+\newblock {Aria Database}.
 
 \bibitem[Kakooei and Baleghi, 2017]{Kakooei2017}
 Kakooei, M. and Baleghi, Y. (2017).
 \newblock {Fusion of satellite, aircraft, and UAV data for automatic disaster
   damage assessment}.
 \newblock {\em International Journal of Remote Sensing}, 38(8-10):2511--2534.
+
+\bibitem[Kampakis, 2016]{Kampakis2016}
+Kampakis, S. (2016).
+\newblock {Performance Measures: Cohen's Kappa Statistic}.
 
 \bibitem[Kerle, 2010]{Kerle2010}
 Kerle, N. (2010).
@@ -107,6 +206,39 @@ Kousky, C. (2014).
   natural disasters}.
 \newblock {\em Energy Economics}, 46:576--592.
 
+\bibitem[Krizhevsky et~al., 2012]{Krizhevsky2012}
+Krizhevsky, A., Sutskever, I., and Hinton, G. (2012).
+\newblock Imagenet classification with deep convolutional neural networks.
+\newblock volume~2, pages 1097--1105.
+\newblock cited By 10330.
+
+\bibitem[Lawrence et~al., 1997]{Lawrence1997}
+Lawrence, S., Giles, C.~L., Tsoi, A.~C., and Back, A.~D. (1997).
+\newblock {Face recognition: A convolutional neural-network approach}.
+\newblock {\em IEEE Transactions on Neural Networks}, 8(1):98--113.
+
+\bibitem[Li et~al., 2017]{Li2017}
+Li, S., Tang, H., Huang, X., Mao, T., and Niu, X. (2017).
+\newblock {Automated Detection of Buildings from Heterogeneous VHR Satellite
+  Images for Rapid Response to Natural Disasters}.
+\newblock {\em Remote Sensing}, 9(11):1177.
+
+\bibitem[Lieshout, 2017]{Lieshout2017}
+Lieshout, I.~v. (2017).
+\newblock {Big data en drones helpen de hulpverlening}.
+
+\bibitem[Lint, 2016]{Lint2016}
+Lint, S.~V. (2016).
+\newblock {\em {Sense-making of The Netherlands red cross priority index model
+  case: Typhoon Haiyan, Philippines}}.
+\newblock PhD thesis, Wageningen UR.
+
+\bibitem[Martha et~al., 2015]{Martha2015}
+Martha, T.~R., {Babu Govindharaj}, K., and {Vinod Kumar}, K. (2015).
+\newblock {Damage and geological assessment of the 18 September 2011 Mw 6.9
+  earthquake in Sikkim, India using very high resolution satellite data}.
+\newblock {\em Geoscience Frontiers}, 6(6):793--805.
+
 \bibitem[Menderes et~al., 2015]{Menderes2015}
 Menderes, A., Erener, A., and Sarp, G. (2015).
 \newblock {Automatic Detection of Damaged Buildings after Earthquake Hazard by
@@ -118,6 +250,29 @@ Menderes, A., Erener, A., and Sarp, G. (2015).
 \newblock {Natural catastrophe review: Series of hurricanes makes 2017 year of
   highest insured losses ever}.
 
+\bibitem[Narendra and Madhukar, 2013]{Narendra2013}
+Narendra, B.~N. and Madhukar, R. (2013).
+\newblock {\em {Lanczos Resampling for the Digital Processing of Remotely
+  Sensed Images}}.
+\newblock Banglore.
+
+\bibitem[Nex and Remondino, 2014]{Nex2014}
+Nex, F. and Remondino, F. (2014).
+\newblock {UAV for 3D mapping applications: A review}.
+\newblock {\em Applied Geomatics}, 6(1):1--15.
+
+\bibitem[Okada and Takai, 2000]{Okada2000}
+Okada, S. and Takai, N. (2000).
+\newblock {Classifications of Structural Types and Damage Patterns of Buildings
+  for Earthquake Field Investigation}.
+\newblock {\em 12th World Conference on Earthquake Engineering}, pages 1--8.
+
+\bibitem[Ozisik, 2004]{Ozisik2004}
+Ozisik, D. (2004).
+\newblock {Post-earthquake Damage Assessment Using Satellite and Aerial Video
+  Imagery}.
+\newblock {\em Geo-Information Science}.
+
 \bibitem[Phipps, 2017]{Phipps2017}
 Phipps, C. (2017).
 \newblock {Irma's destruction: island by island | World news | The Guardian}.
@@ -127,11 +282,40 @@ Piero, B. and FabioGiulio, T. (2012).
 \newblock {Remote-sensing techniques for natural disaster impact assessment}.
 \newblock {\em Advances in Mapping from Remote Sensor Imagery}, pages 387--414.
 
+\bibitem[Pontius and Millones, 2011]{Pontius2011}
+Pontius, R.~G. and Millones, M. (2011).
+\newblock {Death to Kappa: Birth of quantity disagreement and allocation
+  disagreement for accuracy assessment}.
+\newblock {\em International Journal of Remote Sensing}, 32(15):4407--4429.
+
+\bibitem[Powers, 2015]{Powers2015}
+Powers, D. M.~W. (2015).
+\newblock {What the F-measure doesn't measure: Features, Flaws, Fallacies and
+  Fixes}.
+\newblock Technical report, Flinders University, Adelaide.
+
 \bibitem[{Rode Kruis}, 2017]{Rodekruis2017}
 {Rode Kruis} (2017).
 \newblock {Eerste publieksterugkoppeling Nationale Actie Nederland helpt
   Sint-Maarten}.
 \newblock Technical report.
+
+\bibitem[Samadzadegan and Rastiveisi, 2005]{Samadzadegan2005}
+Samadzadegan, F. and Rastiveisi, H. (2005).
+\newblock {Automatic Detection and Classification of Damaged Buildings , Using
+  High Resolution Satellite Imagery and Vector Data}.
+\newblock pages 415--420.
+
+\bibitem[Sasaki, 2007]{Sasaki2007}
+Sasaki, Y. (2007).
+\newblock {The truth of the F-measure}.
+\newblock {\em Teach Tutor mater}, pages 1--5.
+
+\bibitem[Schwarz et~al., 1987]{schwarz1987}
+Schwarz, M.~W., Cowan, W.~B., and Beatty, J.~C. (1987).
+\newblock An experimental comparison of rgb, yiq, lab, hsv, and opponent color
+  models.
+\newblock {\em ACM Transactions on Graphics (TOG)}, 6(2):123--158.
 
 \bibitem[Schweier and Markus, 2006]{Schweier2006}
 Schweier, C. and Markus, M. (2006).
@@ -146,10 +330,44 @@ Sharma, R.~C., Tateishi, R., Hara, K., Nguyen, H.~T., Gharechelou, S., and
   detection of earthquake-induced damages using SAR data}.
 \newblock {\em Sensors (Switzerland)}, 17(2).
 
+\bibitem[Singh, 1989]{Singh1989}
+Singh, A. (1989).
+\newblock {Review Articlel: Digital change detection techniques using
+  remotely-sensed data}.
+\newblock {\em International Journal of Remote Sensing}, 10(6):989--1003.
+
+\bibitem[S{\o}rensen, 1948]{Sorensen1948}
+S{\o}rensen, T. (1948).
+\newblock {A method of establishing groups of equal amplitude in plant
+  sociology based on similarity of species and its application to analyses of
+  the vegetation on Danish commons}.
+\newblock {\em Biol. Skr.}, 5:1--34.
+
+\bibitem[Sousa et~al., 2010]{SOUSA2010181}
+Sousa, J.~J., Ruiz, A.~M., Hanssen, R.~F., Bastos, L., Gil, A.~J.,
+  Galindo-Zaldívar, J., and de~Galdeano, C.~S. (2010).
+\newblock Ps-insar processing methodologies in the detection of field surface
+  deformation—study of the granada basin (central betic cordilleras, southern
+  spain).
+\newblock {\em Journal of Geodynamics}, 49(3):181 -- 189.
+\newblock WEGENER 2008 - Proceedings of the 14th General Assembly of Wegener.
+
+\bibitem[Tewkesbury et~al., 2015]{Tewkesbury2015}
+Tewkesbury, A.~P., Comber, A.~J., Tate, N.~J., Lamb, A., and Fisher, P.~F.
+  (2015).
+\newblock {A critical synthesis of remotely sensed optical image change
+  detection techniques}.
+\newblock {\em Remote Sensing of Environment}, 160:1--14.
+
 \bibitem[{The Federal Emergency Management Agency}, 2016]{FEMA2016}
 {The Federal Emergency Management Agency} (2016).
 \newblock {Damage assessment operations manual - A guide to assessing damage
   and impact}.
+
+\bibitem[Theodoridis and Koutroumbas, 2009]{Theodoridis2009}
+Theodoridis, S. and Koutroumbas, K. (2009).
+\newblock {\em {Pattern Recognition}}.
+\newblock Elsevier Ltd, Burlington, 4 edition.
 
 \bibitem[UNDAC, 2017]{UNDAC2017}
 UNDAC (2017).
@@ -194,10 +412,31 @@ Wang, T.-L. and Jin, Y.-Q. (2012).
   Information From Pre-Event Optical Image and Postevent SAR Image}.
 \newblock {\em IEEE Geoscience and Remote Sensing Letters}, 9(3):452--456.
 
+\bibitem[Warrens, 2011]{Warrens2011}
+Warrens, M.~J. (2011).
+\newblock {Cohen's kappa is a weighted average}.
+\newblock {\em Statistical Methodology}, 8(6):473--484.
+
 \bibitem[Wilts, 2017]{Wilts2017}
 Wilts, A. (2017).
 \newblock {Irma: Category 5 hurricane flattens 'most solid buildings' on Saint
   Martin island | The Independent}.
+
+\bibitem[Wisner and Adams, 2002]{Wisner2002}
+Wisner, B. and Adams, J. (2002).
+\newblock {Environmental Health in Emergencies and Disasters}.
+\newblock Technical report, World Health Organization, Geneva, Switzerland.
+
+\bibitem[Yun et~al., 2015]{Yun2015}
+Yun, S.-H., Hudnut, K., Owen, S., Webb, F., Simons, M., Sacco, P., Gurrola, E.,
+  Manipon, G., Liang, C., Fielding, E., Milillo, P., Hua, H., and Coletta, A.
+  (2015).
+\newblock {Rapid Damage Mapping for the 2015
+  {\textless}i{\textgreater}M{\textless}/i{\textgreater}
+  {\textless}sub{\textgreater}w{\textless}/sub{\textgreater} 7.8 Gorkha
+  Earthquake Using Synthetic Aperture Radar Data from COSMO–SkyMed and ALOS-2
+  Satellites}.
+\newblock {\em Seismological Research Letters}, 86(6):1549--1556.
 
 \bibitem[Zlatanova and Li, 2008]{Zlatanova2008}
 Zlatanova, S. and Li, J. (2008).

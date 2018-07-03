@@ -1,16 +1,57 @@
 \BOOKMARK [0][]{chapter.1}{1 Introduction}{}% 1
 \BOOKMARK [1][-]{section.1.1}{1.1 Problem statement}{chapter.1}% 2
 \BOOKMARK [1][-]{section.1.2}{1.2 Research objectives}{chapter.1}% 3
-\BOOKMARK [1][-]{section.1.3}{1.3 research scope}{chapter.1}% 4
-\BOOKMARK [1][-]{section.1.4}{1.4 definition}{chapter.1}% 5
-\BOOKMARK [2][-]{subsection.1.4.1}{1.4.1 Hurricane Irma}{section.1.4}% 6
-\BOOKMARK [0][]{chapter.2}{2 Theoretical framework}{}% 7
-\BOOKMARK [1][-]{section.2.1}{2.1 Background}{chapter.2}% 8
-\BOOKMARK [2][-]{subsection.2.1.1}{2.1.1 Disaster}{section.2.1}% 9
-\BOOKMARK [2][-]{subsection.2.1.2}{2.1.2 Classification}{section.2.1}% 10
-\BOOKMARK [1][-]{section.2.2}{2.2 Related work}{chapter.2}% 11
-\BOOKMARK [0][]{chapter.3}{3 Methodology}{}% 12
-\BOOKMARK [0][]{chapter.4}{4 Implementation}{}% 13
-\BOOKMARK [0][]{chapter.5}{5 Results}{}% 14
-\BOOKMARK [0][]{chapter.6}{6 Conclusions}{}% 15
-\BOOKMARK [0][]{chapter.7}{7 Discussion}{}% 16
+\BOOKMARK [1][-]{section.1.3}{1.3 Research methodology}{chapter.1}% 4
+\BOOKMARK [2][-]{subsection.1.3.1}{1.3.1 Preparation}{section.1.3}% 5
+\BOOKMARK [2][-]{subsection.1.3.2}{1.3.2 Implementation and Comparison}{section.1.3}% 6
+\BOOKMARK [1][-]{section.1.4}{1.4 Research scope}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.5}{1.5 Reading guide}{chapter.1}% 8
+\BOOKMARK [0][]{chapter.2}{2 Theoretical framework}{}% 9
+\BOOKMARK [1][-]{section.2.1}{2.1 Disaster}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.2}{2.2 Detection, Classification, and Assessment}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.3}{2.3 Method assessment framework}{chapter.2}% 12
+\BOOKMARK [1][-]{section.2.4}{2.4 Datasets available}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.5}{2.5 Existing techniques}{chapter.2}% 14
+\BOOKMARK [2][-]{subsection.2.5.1}{2.5.1 Equalisation and subtraction - Yun2015}{section.2.5}% 15
+\BOOKMARK [2][-]{subsection.2.5.2}{2.5.2 Convolutional Neural Network - Vetrivel2016b}{section.2.5}% 16
+\BOOKMARK [1][-]{section.2.6}{2.6 Related background information}{chapter.2}% 17
+\BOOKMARK [2][-]{subsection.2.6.1}{2.6.1 Colour space}{section.2.6}% 18
+\BOOKMARK [2][-]{subsection.2.6.2}{2.6.2 Inter-rater statistics}{section.2.6}% 19
+\BOOKMARK [0][]{chapter.3}{3 Implementation}{}% 20
+\BOOKMARK [1][-]{section.3.1}{3.1 Preparation}{chapter.3}% 21
+\BOOKMARK [1][-]{section.3.2}{3.2 Tools and datasets used}{chapter.3}% 22
+\BOOKMARK [2][-]{subsection.3.2.1}{3.2.1 Tools}{section.3.2}% 23
+\BOOKMARK [2][-]{subsection.3.2.2}{3.2.2 Data}{section.3.2}% 24
+\BOOKMARK [1][-]{section.3.3}{3.3 Research implementation}{chapter.3}% 25
+\BOOKMARK [2][-]{subsection.3.3.1}{3.3.1 Equalisation and subtraction}{section.3.3}% 26
+\BOOKMARK [2][-]{subsection.3.3.2}{3.3.2 Convolutional Neural Network}{section.3.3}% 27
+\BOOKMARK [1][-]{section.3.4}{3.4 Assessment of Results}{chapter.3}% 28
+\BOOKMARK [0][]{chapter.4}{4 Results}{}% 29
+\BOOKMARK [1][-]{section.4.1}{4.1 Equalisation and subtraction}{chapter.4}% 30
+\BOOKMARK [2][-]{subsection.4.1.1}{4.1.1 SAR data}{section.4.1}% 31
+\BOOKMARK [2][-]{subsection.4.1.2}{4.1.2 Optical data}{section.4.1}% 32
+\BOOKMARK [1][-]{section.4.2}{4.2 Convolutional Neural Network}{chapter.4}% 33
+\BOOKMARK [2][-]{subsection.4.2.1}{4.2.1 Optical data}{section.4.2}% 34
+\BOOKMARK [2][-]{subsection.4.2.2}{4.2.2 SAR data}{section.4.2}% 35
+\BOOKMARK [1][-]{section.4.3}{4.3 Comparison}{chapter.4}% 36
+\BOOKMARK [1][-]{section.4.4}{4.4 Extension to classification}{chapter.4}% 37
+\BOOKMARK [1][-]{section.4.5}{4.5 Discussion}{chapter.4}% 38
+\BOOKMARK [0][]{chapter.5}{5 Conclusions}{}% 39
+\BOOKMARK [1][-]{section.5.1}{5.1 How is damage determined?}{chapter.5}% 40
+\BOOKMARK [1][-]{section.5.2}{5.2 What criteria are set for damage classification methods?}{chapter.5}% 41
+\BOOKMARK [1][-]{section.5.3}{5.3 Which methods already exist?}{chapter.5}% 42
+\BOOKMARK [1][-]{section.5.4}{5.4 How do these methods perform?}{chapter.5}% 43
+\BOOKMARK [1][-]{section.5.5}{5.5 How does the state of the art compare to these methods?}{chapter.5}% 44
+\BOOKMARK [1][-]{section.5.6}{5.6 Summary}{chapter.5}% 45
+\BOOKMARK [0][]{chapter.6}{6 Recommendations}{}% 46
+\BOOKMARK [1][-]{section.6.1}{6.1 Optical Data}{chapter.6}% 47
+\BOOKMARK [1][-]{section.6.2}{6.2 SAR Data}{chapter.6}% 48
+\BOOKMARK [1][-]{section.6.3}{6.3 Data Combination}{chapter.6}% 49
+\BOOKMARK [1][-]{section.6.4}{6.4 Disaster Specific Properties}{chapter.6}% 50
+\BOOKMARK [1][-]{section.6.5}{6.5 Method Assessment Framework}{chapter.6}% 51
+\BOOKMARK [1][-]{section.6.6}{6.6 Comparison of Results}{chapter.6}% 52
+\BOOKMARK [0][]{chapter.1}{A Appendices}{}% 53
+\BOOKMARK [1][-]{section.1.1}{A.1 Neural Network Training for Damage Detection}{chapter.1}% 54
+\BOOKMARK [1][-]{section.1.2}{A.2 Results Empirical Approach to Damage Detection}{chapter.1}% 55
+\BOOKMARK [1][-]{section.1.3}{A.3 Neural Network Training for Damage Classification}{chapter.1}% 56
+\BOOKMARK [1][-]{section.1.4}{A.4 Results Empirical Approach to Damage Detection}{chapter.1}% 57

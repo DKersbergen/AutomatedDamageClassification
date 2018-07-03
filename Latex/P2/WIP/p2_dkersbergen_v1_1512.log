@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.8.8)  26 FEB 2018 10:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.8.8)  24 JUN 2018 15:44
 entering extended mode
 **./p2_dkersbergen_v1_1512.tex
 (p2_dkersbergen_v1_1512.tex
@@ -1533,7 +1533,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 
 pdfTeX warning: pdflatex.exe (file ./cover/cover_front.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
-<cover/cover_front.pdf, id=87, 597.432pt x 845.07718pt>
+<cover/cover_front.pdf, id=71, 597.432pt x 845.07718pt>
 File: cover/cover_front.pdf Graphic file (type pdf)
 
 <use cover/cover_front.pdf>
@@ -1555,7 +1555,7 @@ nd PDF version <1.6>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ./cover/cover_front.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
-<cover/cover_front.pdf, id=90, page=1, 597.432pt x 845.07718pt>
+<cover/cover_front.pdf, id=74, page=1, 597.432pt x 845.07718pt>
 File: cover/cover_front.pdf Graphic file (type pdf)
 
 <use cover/cover_front.pdf, page 1>
@@ -1663,7 +1663,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
-<figs/logo-01.png, id=128, 410.9754pt x 190.5519pt>
+<figs/logo-01.png, id=112, 410.9754pt x 190.5519pt>
 File: figs/logo-01.png Graphic file (type png)
  <use figs/logo-01.png>
 Package pdftex.def Info: figs/logo-01.png used on input line 18.
@@ -1673,7 +1673,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--26
 
  []
 
-<figs/logo-02.png, id=129, 411.2163pt x 96.36pt>
+<figs/logo-02.png, id=113, 411.2163pt x 96.36pt>
 File: figs/logo-02.png Graphic file (type png)
  <use figs/logo-02.png>
 Package pdftex.def Info: figs/logo-02.png used on input line 27.
@@ -1719,55 +1719,11 @@ LaTeX Font Info:    Font shape `OT1/pplj/bx/n' in size <8> not available
 ) [7] [8
 
 
-] (chapters/introduction.tex
+] (chapters/introduction.tex) (chapters/researchobj.tex
 chapter 1.
 
 Overfull \hbox (20.7146pt too wide) in paragraph at lines 1--1
 |[]\chapterNumber 1[]  |  [][]
- []
-
-<figs/graph2.png, id=195, 465.99094pt x 274.02374pt>
-File: figs/graph2.png Graphic file (type png)
- <use figs/graph2.png>
-Package pdftex.def Info: figs/graph2.png used on input line 7.
-(pdftex.def)             Requested size: 302.39795pt x 177.829pt.
-LaTeX Font Info:    Font shape `OT1/iwona/bx/n' in size <9> not available
-(Font)              Font shape `OT1/iwona/b/n' tried instead on input line 8.
-Package microtype Info: Character `013' is missing
-(microtype)             in font `OT1/iwona/m/sc/14.4'.
-(microtype)             Ignoring protrusion settings for this character.
-Package acronym Info: Label `acro:nlrc' newly defined as it shall be overridden
-
-although it is yet undefined on input line 13.
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--15
-
- []
-
-[1
-
-
- <./figs/graph2.png>]
-Package acronym Info: Label `acro:drm' newly defined as it shall be overridden
-although it is yet undefined on input line 17.
-Package acronym Info: Label `acro:sem' newly defined as it shall be overridden
-although it is yet undefined on input line 18.
-Package acronym Info: Label `acro:gis' newly defined as it shall be overridden
-although it is yet undefined on input line 21.
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--23
-
- []
-
-
-Underfull \vbox (badness 2781) has occurred while \output is active []
-
- [2])
-(chapters/researchobj.tex [3]
-chapter 2.
-
-Overfull \hbox (20.7146pt too wide) in paragraph at lines 1--1
-|[]\chapterNumber 2[]  |  [][]
  []
 
 
@@ -1780,13 +1736,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--18
 
  []
 
-[4
+[1
 
-]) (chapters/relatedwork.tex [5]
-chapter 3.
+]
+Package microtype Info: Character `013' is missing
+(microtype)             in font `OT1/iwona/m/sc/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+Package acronym Info: Label `acro:nlrc' newly defined as it shall be overridden
+
+although it is yet undefined on input line 24.
+) (chapters/relatedwork.tex [2]
+chapter 2.
 
 Overfull \hbox (20.7146pt too wide) in paragraph at lines 1--1
-|[]\chapterNumber 3[]  |  [][]
+|[]\chapterNumber 2[]  |  [][]
  []
 
 
@@ -1794,6 +1757,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
+Package acronym Info: Label `acro:sem' newly defined as it shall be overridden
+although it is yet undefined on input line 8.
 Package acronym Info: Label `acro:em' newly defined as it shall be overridden
 although it is yet undefined on input line 8.
 Package acronym Info: Label `acro:uav' newly defined as it shall be overridden
@@ -1808,7 +1773,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
-[6
+[3
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 20--21
@@ -1830,7 +1795,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--29
 
  []
 
-[7]
+[4]
 Underfull \hbox (badness 10000) in paragraph at lines 30--31
 
  []
@@ -1845,7 +1810,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
-[8]
+[5]
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
 (Font)              scaled to size 8.33606pt on input line 42.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
@@ -1869,6 +1834,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--52
 []\OT1/pplj/m/n/8 [[][]Samadzadegan and
  []
 
+LaTeX Font Info:    Font shape `OT1/iwona/bx/n' in size <9> not available
+(Font)              Font shape `OT1/iwona/b/n' tried instead on input line 58.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
 (Font)              scaled to size 9.37807pt on input line 58.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
@@ -1885,20 +1852,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
-) (chapters/methodology.tex [9]
-chapter 4.
+) (chapters/methodology.tex [6]
+chapter 3.
 
 Overfull \hbox (20.7146pt too wide) in paragraph at lines 1--1
-|[]\chapterNumber 4[]  |  [][]
+|[]\chapterNumber 3[]  |  [][]
  []
 
-<figs/methodology.png, id=486, 463.7325pt x 498.86375pt>
+<figs/methodology.png, id=341, 463.7325pt x 498.86375pt>
 File: figs/methodology.png Graphic file (type png)
 
 <use figs/methodology.png>
 Package pdftex.def Info: figs/methodology.png used on input line 6.
 (pdftex.def)             Requested size: 302.39795pt x 325.31567pt.
- [10
+ [7
 
  <./figs/methodology.png>]
 Package acronym Info: Label `acro:dem' newly defined as it shall be overridden
@@ -1911,21 +1878,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--22
 
  []
 
-[11
+[8
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 24--28
 
  []
 
-) (chapters/planning.tex [12]
-chapter 5.
+) (chapters/planning.tex [9]
+chapter 4.
 
 Overfull \hbox (20.7146pt too wide) in paragraph at lines 1--1
-|[]\chapterNumber 5[]  |  [][]
+|[]\chapterNumber 4[]  |  [][]
  []
 
-<figs/gantt.png, id=527, 719.8092pt x 196.21304pt>
+<figs/gantt.png, id=382, 719.8092pt x 196.21304pt>
 File: figs/gantt.png Graphic file (type png)
  <use figs/gantt.png>
 Package pdftex.def Info: figs/gantt.png used on input line 30.
@@ -1934,7 +1901,7 @@ Package pdftex.def Info: figs/gantt.png used on input line 30.
 (chapters/tools.tex
 Underfull \vbox (badness 3019) has occurred while \output is active []
 
- [13
+ [10
 
  <./figs/gantt.png>]
 Underfull \hbox (badness 1406) in paragraph at lines 13--14
@@ -1951,9 +1918,9 @@ Overfull \hbox (7.89304pt too wide) in paragraph at lines 29--45
  [][] 
  []
 
-) (p2_dkersbergen_v1_1512.bbl [14] [15
+) (p2_dkersbergen_v1_1512.bbl [11] [12
 
-] [16]
+] [13]
 LaTeX Font Info:    Try loading font information for OML+pplj on input line 260
 .
 LaTeX Font Info:    No file OMLpplj.fd. on input line 260.
@@ -1963,7 +1930,7 @@ LaTeX Font Warning: Font shape `OML/pplj/m/n' undefined
 (Font)              using `OML/cmm/m/it' instead
 (Font)              for symbol `textless' on input line 260.
 
-) [17]
+) [14]
 \openout2 = `back/annex.aux'.
 
  (back/annex.tex
@@ -1977,7 +1944,7 @@ Overfull \hbox (34.68282pt too wide) in paragraph at lines 2--2
 
 pdfTeX warning: pdflatex.exe (file ./annex/annex1.pdf): PDF inclusion: found PD
 F version <1.6>, but at most version <1.5> allowed
-<annex/annex1.pdf, id=569, 597.45204pt x 845.1575pt>
+<annex/annex1.pdf, id=444, 597.45204pt x 845.1575pt>
 File: annex/annex1.pdf Graphic file (type pdf)
  <use annex/annex1.pdf>
 Package pdftex.def Info: annex/annex1.pdf used on input line 4.
@@ -1998,7 +1965,7 @@ F version <1.6>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ./annex/annex1.pdf): PDF inclusion: found PD
 F version <1.6>, but at most version <1.5> allowed
-<annex/annex1.pdf, id=572, page=1, 597.45204pt x 845.1575pt>
+<annex/annex1.pdf, id=447, page=1, 597.45204pt x 845.1575pt>
 File: annex/annex1.pdf Graphic file (type pdf)
 
 <use annex/annex1.pdf, page 1>
@@ -2008,7 +1975,7 @@ File: annex/annex1.pdf Graphic file (type pdf)
  <use annex/annex1.pdf, page 1>
 Package pdftex.def Info: annex/annex1.pdf, page1 used on input line 4.
 (pdftex.def)             Requested size: 597.47792pt x 845.19412pt.
- [18
+ [15
 
 
 
@@ -2027,11 +1994,11 @@ File: annex/annex1.pdf Graphic file (type pdf)
 <use annex/annex1.pdf, page 1>
 Package pdftex.def Info: annex/annex1.pdf, page1 used on input line 4.
 (pdftex.def)             Requested size: 597.47792pt x 845.19412pt.
- [19 <./annex/annex1.pdf>])
+ [16 <./annex/annex1.pdf>])
 \openout2 = `back/colophon.aux'.
 
  (back/colophon.tex)
-[20
+[17
 
 
 ]
@@ -2042,7 +2009,7 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 83.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 83.
 Package rerunfilecheck Info: File `p2_dkersbergen_v1_1512.out' has not changed.
 
-(rerunfilecheck)             Checksum: C413D600445CE91CB2F660F8F712B2CA;1300.
+(rerunfilecheck)             Checksum: 02DAB844D8F51917F1C30D05FACE2231;1058.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -2054,13 +2021,13 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 83.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 26605 strings out of 493335
- 477010 string characters out of 3139255
- 715127 words of memory out of 3000000
- 29579 multiletter control sequences out of 15000+200000
+ 26574 strings out of 493335
+ 476673 string characters out of 3139255
+ 714764 words of memory out of 3000000
+ 29561 multiletter control sequences out of 15000+200000
  83386 words of font info for 122 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 53i,20n,79p,10458b,11891s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,20n,82p,10458b,11864s stack positions out of 5000i,500n,10000p,200000b,50000s
 {D:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}{D
 :/Program Files/MiKTeX 2.9/fonts/enc/dvips/iwona/rm-iwona.enc}{D:/Program Files
 /MiKTeX 2.9/fonts/enc/dvips/iwona/rm-iwona-sc.enc}<D:/Program Files/MiKTeX 2.9/
@@ -2074,9 +2041,9 @@ iKTeX 2.9/fonts/type1/nowacki/iwona/iwonab.pfb><D:/Program Files/MiKTeX 2.9/fon
 ts/type1/nowacki/iwona/iwonar.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/urw/
 palatino/uplb8a.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8
 a.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on p2_dkersbergen_v1_1512.pdf (28 pages, 2433407 bytes).
+Output written on p2_dkersbergen_v1_1512.pdf (25 pages, 2391987 bytes).
 PDF statistics:
- 662 PDF objects out of 1000 (max. 8388607)
- 123 named destinations out of 1000 (max. 500000)
- 21226 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 536 PDF objects out of 1000 (max. 8388607)
+ 111 named destinations out of 1000 (max. 500000)
+ 21189 words of extra memory for PDF output out of 24883 (max. 10000000)
 
